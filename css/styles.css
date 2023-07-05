@@ -158,3 +158,37 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+
+/*  PORTFOLIO  */
+
+.porfolio-btn {
+  color: var(--iris, #4d5ae5);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  background-color: var(--footer-text-color);
+  align-items: center;
+  text-align: center;
+}
+
+.porfolio-btn:hover,
+.porfolio-btn:focus {
+    color:var(--white-text-color);
+    background-color:var(--accent-color);
+}
+
+.portfolio-list-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height:1.2;
+    letter-spacing: 0.4px;
+}
+
+.porfolio-list-text {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
