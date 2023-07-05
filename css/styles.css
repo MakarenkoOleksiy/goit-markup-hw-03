@@ -100,7 +100,7 @@ body {
 }
 
 .hero-title {
-  color: var(--white-text-color);
+  color: #ffffff;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -116,6 +116,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  color: var(--dark-bg-color);
 }
 
 .feature-text {
