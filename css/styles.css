@@ -170,6 +170,10 @@ color: var(--main-text-color);
 
 /*  PORTFOLIO  */
 
+.portfolio-link {
+    text-decoration: none;
+}
+
 .portfolio-list-title {
     color: var(--main-text-color);
     font-size: 20px;
