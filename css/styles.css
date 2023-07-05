@@ -49,8 +49,6 @@ body {
     letter-spacing: 0.64px;
     cursor: pointer;
     background-color: var(--iris, #4d5ae5);
-    align-items: center;
-    text-align: center;
   }
   .hero-btn:hover,
   .hero-btn:focus {
@@ -65,13 +63,11 @@ body {
     letter-spacing: 0.64px;
     cursor: pointer;
     background-color: var(--footer-text-color);
-    align-items: center;
-    text-align: center;
   }
   
   .porfolio-btn:hover,
   .porfolio-btn:focus {
-      color:var(--white-text-color);
+      color: var(--white-text-color);
       background-color:var(--accent-color);
   }
 
@@ -79,6 +75,8 @@ body {
 
 .menu-link {
   font-weight: 500;
+  color: var(--main-text-color);
+
 }
 
 .menu-link:hover,
