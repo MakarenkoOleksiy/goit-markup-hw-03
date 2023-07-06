@@ -1,10 +1,10 @@
 :root {
   --main-text-color: #2e2f42;
   --secondary-text-color: #434455;
-  --white-text-color: #fff;
+  --white-text-color: #ffffff;
   --accent-color: #404bbf;
   --dark-bg-color: #2e2f42;
-  --white-bg-color: #fff;
+  --white-bg-color: #ffffff;
   --footer-text-color: #f4f4fd;
   --team-bg-layer: #f4f4fd;
 }
@@ -43,7 +43,7 @@ body {
 
 .hero-btn {
     font-family: "Roboto", sans-serif;
-    color: var(--white, #fff);
+    color: var(--white, #ffffff);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
