@@ -1,10 +1,10 @@
 :root {
   --main-text-color: #2e2f42;
   --secondary-text-color: #434455;
-  --white-text-color: #ffffff;
+  --white-text-color: #FFFFFF;
   --accent-color: #404bbf;
   --dark-bg-color: #2e2f42;
-  --white-bg-color: #ffffff;
+  --white-bg-color: #FFFFFF;
   --footer-text-color: #f4f4fd;
   --team-bg-layer: #f4f4fd;
 }
@@ -43,7 +43,7 @@ body {
 
 .hero-btn {
     font-family: "Roboto", sans-serif;
-    color: var(--white, #ffffff);
+    color: var(--white, #FFFFFF);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -88,6 +88,7 @@ body {
   color: var(--accent-color);
 }
 
+.contact,
 .contact-link {
   color: var(--secondary-text-color);
   font-style: normal;
@@ -100,7 +101,7 @@ body {
 }
 
 .hero-title {
-  color: #ffffff;
+  color: #FFFFFF;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -125,9 +126,20 @@ body {
 
 /* Whar are we doing section */
 
-.work-titel,
+.work-titel {
+  color: var(--main-text-color);
+  background-color: var(--white-bg-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+
 .team-titel {
-color: var(--main-text-color);
+  color: var(--main-text-color);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
