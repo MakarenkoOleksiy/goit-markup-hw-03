@@ -93,6 +93,9 @@ body {
   color: var(--secondary-text-color);
   font-style: normal;
 }
+.current {
+  color: var(--accent-color);
+}
 
 /* HERO */
 
