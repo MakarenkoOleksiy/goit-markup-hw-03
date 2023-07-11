@@ -102,7 +102,6 @@ body {
 
 .hero-title {
   color: #FFFFFF;
-  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -112,7 +111,7 @@ body {
 
 /*  FEATURE SECTION  */
 
-.feature-titel {
+.feature-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -126,7 +125,7 @@ body {
 
 /* Whar are we doing section */
 
-.work-titel {
+.work-title {
   color: var(--main-text-color);
   text-align: center;
   font-size: 36px;
@@ -137,7 +136,7 @@ body {
 }
 
 
-.team-titel {
+.team-title {
   color: var(--main-text-color);
   text-align: center;
   font-size: 36px;
@@ -198,6 +197,6 @@ body {
     letter-spacing: 0.4px;
 }
 
-.porfolio-list-text {
+.portfolio-list-text {
     color: var(--secondary-text-color);
 }
