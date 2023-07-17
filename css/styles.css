@@ -1,3 +1,4 @@
+/* general */
 :root {
   --main-text-color: #2e2f42;
   --secondary-text-color: #434455;
@@ -8,15 +9,26 @@
   --footer-text-color: #f4f4fd;
   --team-bg-layer: #f4f4fd;
 }
+/*general for pages*/
 
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--secondary-text-color);
+  background-color: var(--white-bg-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+/* cancel points for list*/
 .list {
   list-style: none;
 }
-
+/* cancel underline for links*/
 .link {
   text-decoration: none;
 }
 
+/*general cancel for margin and padding*/
 h1,
 h2,
 h3,
@@ -35,15 +47,6 @@ ul {
   margin-right: auto;
   padding-left: 12px;
   padding-right: 12px;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--secondary-text-color);
-  background-color: var(--white-bg-color);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
 }
 
 .logo {
@@ -95,9 +98,61 @@ body {
 
 /* HEADER */
 
+.nav-flex {
+  display: flex;
+  align-items: center;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  margin-left: 74px;
+}
+
 .menu-link {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
   font-weight: 500;
   color: var(--main-text-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.contact-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.contact {
+  margin-left: auto;
+}
+
+.contact-item  {
+  margin-left: 40px;
+}
+
+
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .menu-link:hover,
