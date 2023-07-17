@@ -10,7 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <!--Main page-->
@@ -18,41 +24,43 @@
   <body>
     <!--Page header-->
     <header class="page-header">
-      <nav class="page-nav">
-        <!--Logo-->
-        <a class="logo link" href="./index.html"
-          >Web<span class="logo-black">Studio</span></a
-        >
+      <div class="container nav-flex">
+        <nav class="page-nav">
+          <!--Logo-->
+          <a class="logo link" href="./index.html"
+            >Web<span class="logo-black">Studio</span></a
+          >
 
-        <!--Navigating to other pages-->
-        <ul class="menu list">
-          <li class="menu-item">
-            <a class="menu-link link current" href="./index.html">Studio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
+          <!--Navigating to other pages-->
+          <ul class="menu list">
+            <li class="menu-item">
+              <a class="menu-link link current" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
 
-      <!--Contacts-->
-      <address class="contact">
-        <ul class="contact-list list">
-          <li class="contact-item">
-            <a class="contact-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="contact-item">
-            <a class="contact-link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+        <!--Contacts-->
+        <address class="contact">
+          <ul class="contact-list list">
+            <li class="contact-item">
+              <a class="contact-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contact-item">
+              <a class="contact-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <!--Hero image-->
     <main>
@@ -169,7 +177,8 @@
               src="./images/team4.jpg"
               alt="Daniel Wilson"
               width="264"
-              height="260"/>
+              height="260"
+            />
             <h3 class="team-name">Daniel Wilson</h3>
             <p class="team-position">UI Designer</p>
           </li>

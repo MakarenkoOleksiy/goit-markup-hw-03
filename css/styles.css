@@ -1,10 +1,10 @@
 :root {
   --main-text-color: #2e2f42;
   --secondary-text-color: #434455;
-  --white-text-color: #FFFFFF;
+  --white-text-color: #ffffff;
   --accent-color: #404bbf;
   --dark-bg-color: #2e2f42;
-  --white-bg-color: #FFFFFF;
+  --white-bg-color: #ffffff;
   --footer-text-color: #f4f4fd;
   --team-bg-layer: #f4f4fd;
 }
@@ -17,10 +17,30 @@
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--secondary-text-color);
-  background-color: var(--white-bg-color) ;
+  background-color: var(--white-bg-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -42,43 +62,42 @@ body {
 /* COMPONENTS */
 
 .hero-btn {
-    font-family: "Roboto", sans-serif;
-    color: var(--white, #FFFFFF);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.64px;
-    cursor: pointer;
-    background-color: var(--iris, #4d5ae5);
-  }
-  .hero-btn:hover,
-  .hero-btn:focus {
-    background-color: var(--ocean, #404bbf);
-  }
+  font-family: 'Roboto', sans-serif;
+  color: var(--white, #ffffff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  background-color: var(--iris, #4d5ae5);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--ocean, #404bbf);
+}
 
 .porfolio-btn {
-    font-family: "Roboto", sans-serif;
-    color: var(--iris, #4d5ae5);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.64px;
-    cursor: pointer;
-    background-color: var(--footer-text-color);
-  }
-  
-  .porfolio-btn:hover,
-  .porfolio-btn:focus {
-      color: var(--white-text-color);
-      background-color:var(--accent-color);
-  }
+  font-family: 'Roboto', sans-serif;
+  color: var(--iris, #4d5ae5);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  background-color: var(--footer-text-color);
+}
+
+.porfolio-btn:hover,
+.porfolio-btn:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
 
 /* HEADER */
 
 .menu-link {
   font-weight: 500;
   color: var(--main-text-color);
-
 }
 
 .menu-link:hover,
@@ -104,7 +123,7 @@ body {
 }
 
 .hero-title {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -137,7 +156,6 @@ body {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-
 
 .team-title {
   color: var(--main-text-color);
@@ -189,17 +207,17 @@ body {
 /*  PORTFOLIO  */
 
 .portfolio-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .portfolio-list-title {
-    color: var(--main-text-color);
-    font-size: 20px;
-    font-weight: 500;
-    line-height:1.2;
-    letter-spacing: 0.4px;
+  color: var(--main-text-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }
 
 .portfolio-list-text {
-    color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
